@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>País Origem</title>
+</head>
+<body>
+    <section>
+        <h1>Qual é o seu País?</h1>
+        <div id="caixa">
+            <label for="txtp">Seu país é: <input type="text" name="txtp" id="txtp"></label>
+            <input id="botao" type="button" value="Enviar" onclick="pais()">
+        </div>
+        <div id="res"></div>
+    </section>
+
+    <script>
+        function pais() {
+            let txtpais = document.querySelector('input#txtp')
+            let res = document.querySelector('div#res')
+            res.innerHTML += `<p>Vocé é do País <strong>${txtpais.value}</strong>!</p>`
+            let p = txtpais.value
+            if (p == 'brasil' || p == 'Brasil') {
+                res.innerHTML += `<p>Você é <strong>brasileiro!</strong></p>`
+            } else {
+                res.innerHTML += `<p>Você é <strong>estrangeiro!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>

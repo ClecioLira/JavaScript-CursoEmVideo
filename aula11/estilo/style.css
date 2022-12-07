@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url('../imagens/terra.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+section {
+    background-color: white;
+    color: black;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+section h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+#caixa {
+    text-align: center;
+}
+input {
+    border: 1px solid black;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+#botao {
+    padding-right: 5px;
+}
