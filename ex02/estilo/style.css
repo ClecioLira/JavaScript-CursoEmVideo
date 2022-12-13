@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    background-color: sienna;
+    color: white;
+    width: 95vw;
+    height: 95vh;
+}
+
+header {
+    text-align: center;
+    text-shadow: 0px 3px 5px black;
+    padding-bottom: 0.1em;
+}
+
+section {
+    margin: auto;
+    padding: 0.1em 2em 2em 2em ;
+    background-color: white;
+    color: black;
+    border-radius: 2em;
+    width: 280px;
+    box-shadow: 0px 0px 8px black;
+}
+
+input#iano {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
