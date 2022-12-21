@@ -13,7 +13,7 @@ function contar() {
         let passoN = Number(passo.value)
 
         if (passoN <= 0) {
-            alert(`Passo inválido! Considerando PASSO = 1`)
+            alert(`Passo inválido! Considerando PASSO = 1!`)
             passoN = 1
         }
         if (inicioN < fimN) { //CONTAGEM CRESCENTE
