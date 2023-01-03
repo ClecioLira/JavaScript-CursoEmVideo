@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -30,6 +30,10 @@ section {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
     border-radius: 1em;
     line-height: 2em;
+}
+#ilista {
+    padding: 5px;
+    width: 200px;
 }
 
 footer {
